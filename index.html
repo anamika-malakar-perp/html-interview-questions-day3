@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">HTML INTERVIEW QUESTIONS DAY 3</h1>
+
+    <h3>1. Write a code to insert an image?</h3>
+    <p>
+        <img src="panda.jpg" width="100" height="100"/>
+    </p>
+
+    <h3>2. Create a form contain input fields like name age email and contact</h3>
+    <p>
+        <form name="registration" action="msg.html" method="get">
+            <label for="name">Enter name</label>
+            <br>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="age">Enter age</label>
+            <br>
+            <input type="number" id="age" name="age">
+            <br>
+            <br>
+            <label for="email">Enter email</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="mobile">Enter mobile number</label>
+            <br>
+            <input type="number" id="mobile" name="mobile">
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </p>
+
+    <h3>3. Create a table and explain how to achieve colspan</h3>
+    <p>
+        <table border="">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th colspan="2">Contact Number</th>
+                    <th>Date of commencement</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elevation academy</td>
+                    <td>1234567890</td>
+                    <td>2 August 2020</td>
+                </tr>
+                <tr>
+                    <td>Elevation academy</td>
+                    <td>1234567890</td>
+                    <td>2 August 2020</td>
+                </tr>
+                <tr>
+                    <td>Elevation academy</td>
+                    <td>1234567890</td>
+                    <td>2 August 2020</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+    <p>
+        The colspan attribute in HTML specifies the number of columns a cell should span. It allows the single table cell to span the width of more than one cell or column. It provides the same functionality as “merge cell” in a spreadsheet program like Excel.
+    </p>
+
+    <h3>4. Create radio button(MERN, MEAN:course) and checkbox(HTML,CSS,React,Node: technology) and explain the difference between the two</h3>
+    <p>
+        <form name="registration" action="msg.html" method="get">
+            <label>Checkbox</label>
+            <br>
+            <label for="courses">Courses</label>
+            <br>
+            <input type="checkbox" id="mern" value="mern" name="courses">
+            <label for="mern">MERN</label>
+            <br>
+            <input type="checkbox" id="mean" value="mean" name="courses">
+            <label for="mean">MEAN</label>
+            <br>
+            <br>
+            <label>Rabio buttons</label>
+            <br>
+            <label for="technology">Technology</label>
+            <br>
+            <input type="radio" id="react" value="react" name="technology">
+            <label for="react">React</label>
+            <br>
+            <input type="radio" id="html" value="html" name="technology">
+            <label for="html">HTML</label>
+            <br>
+            <input type="radio" id="css" value="css" name="technology">
+            <label for="css">CSS</label>
+            <br>
+            <input type="radio" id="node" value="node" name="technology">
+            <label for="node">Node</label>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </p>
+
+    <p>
+        <table border="" style="width: 100%">
+            <thead>
+                <tr>
+                    <th>Radio buttons</th>
+                    <th>Checkbox</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>It is used when only one option to be selected out of several available options.</td>
+                    <td>Checkbox allows one or many options to be selected.</td>
+                </tr>
+                <tr>
+                    <td>Radio button is presented as a small circle on the screen.</td>
+                    <td>Checkbox is presented as a small square box on the screen.</td>
+                </tr>
+                <tr>
+                    <td>Radio button have only 2 states namely- True & False.</td>
+                    <td>Check have three states namely- checked, unchecked and indeterminate</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+</body>
+</html>
